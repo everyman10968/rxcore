@@ -1,0 +1,898 @@
+[
+    {
+        "icode": 1000002,
+        "tpu_code_list": "689744",
+        "drugname": "CPM tab. 4 mg.",
+        "drug_type_name": "Antihistamine",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1000004,
+        "tpu_code_list": "783714",
+        "drugname": "CPM syr. 2 mg./5ml.",
+        "drug_type_name": "Antihistamine",
+        "units": "ขวด (60 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1000010,
+        "tpu_code_list": "537227",
+        "drugname": "(HAD) AdreNALINE 1 mg./ml.(1:1,000)",
+        "drug_type_name": "Emergency Drug",
+        "units": "Amphule (1 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1000016,
+        "tpu_code_list": "666517",
+        "drugname": "AlloPURINOL (CKD) 100 mg.",
+        "drug_type_name": "Gout",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1000023,
+        "tpu_code_list": "736949",
+        "drugname": "AMITRIPTYLINE 10 mg.",
+        "drug_type_name": "CNS",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1000028,
+        "tpu_code_list": "240506",
+        "drugname": "250-AMOXICILLIN (CKD) 250 mg.",
+        "drug_type_name": "ATB drug",
+        "units": "แค็บซูล",
+        "is_active": true
+    },
+    {
+        "icode": 1000030,
+        "tpu_code_list": "240523",
+        "drugname": "AMOXICILLIN (CKD) 500 mg.",
+        "drug_type_name": "ATB drug",
+        "units": "แค็บซูล",
+        "is_active": true
+    },
+    {
+        "icode": 1000038,
+        "tpu_code_list": "226243",
+        "drugname": "300-ASPIRIN 300 mg.",
+        "drug_type_name": "CVS",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1000054,
+        "tpu_code_list": "767686",
+        "drugname": "HYOSCINE inj. 20 mg./ml.",
+        "drug_type_name": "GI",
+        "units": "Ampule. (1 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1000056,
+        "tpu_code_list": "500305",
+        "drugname": "Calamine LOTION 15 %",
+        "drug_type_name": "Topical antipruritic",
+        "units": "ขวด (60 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1000086,
+        "tpu_code_list": "460086",
+        "drugname": "COLCHICINE (CKD) 0.6 mg.",
+        "drug_type_name": "Gout",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1000092,
+        "tpu_code_list": "307685",
+        "drugname": "DextroMETHORPHAN 15 mg.",
+        "drug_type_name": "URI",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1000098,
+        "tpu_code_list": "529246",
+        "drugname": "D-5-S/2 1000 ml .",
+        "drug_type_name": "IV Fluid",
+        "units": "ขวด (1,000 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1000122,
+        "tpu_code_list": "111471",
+        "drugname": "ENALAPRIL (CKD) 5 mg.",
+        "drug_type_name": "HT",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1000125,
+        "tpu_code_list": "666627",
+        "drugname": "ERYTHROMYCIN dry. syr. 125 mg/5ml",
+        "drug_type_name": "ATB drug",
+        "units": "ขวด (60 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1000135,
+        "tpu_code_list": "767471",
+        "drugname": "FOLIC ACID 5 mg.",
+        "drug_type_name": "Vitamins and minerals",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1000151,
+        "tpu_code_list": "770924",
+        "drugname": "HYDROGEN PEROXIDE 2 %",
+        "drug_type_name": "antiseptic",
+        "units": "ขวด (450 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1000184,
+        "tpu_code_list": "374764",
+        "drugname": "MetFORMIN (CKD) 500 mg. [ห้ามใช้ใน eGFR<30]",
+        "drug_type_name": "DM",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1000189,
+        "tpu_code_list": "777322",
+        "drugname": "MILK OF MAGNESIA susp. 1.2 g/15ml",
+        "drug_type_name": "Laxative",
+        "units": "ขวด (60ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1000213,
+        "tpu_code_list": "392040",
+        "drugname": "NORfloxacin (CKD) [ห้ามใช้ใน G6PD/หญิงตั้งครรภ์] 400 mg.",
+        "drug_type_name": "ATB drug",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1000215,
+        "tpu_code_list": "761415",
+        "drugname": "(IV) NSS 1,000 ml.ขวด(บันทึกวิธีใช้ทุกครั้ง) . .",
+        "drug_type_name": "IV Fluid",
+        "units": "ขวด",
+        "is_active": true
+    },
+    {
+        "icode": 1000216,
+        "tpu_code_list": "770799",
+        "drugname": "NSS 100 ml.(บันทึกวิธีใช้ทุกครั้ง) . .",
+        "drug_type_name": "IV Fluid",
+        "units": "ขวด",
+        "is_active": true
+    },
+    {
+        "icode": 1000226,
+        "tpu_code_list": "404534",
+        "drugname": "325-PARACETAMOL 325 mg.",
+        "drug_type_name": "Antipyretic",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1000227,
+        "tpu_code_list": "438642",
+        "drugname": "PARACETAMOL 500 mg.",
+        "drug_type_name": "Antipyretic",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1000230,
+        "tpu_code_list": "632874",
+        "drugname": "PARACETAMOL syr. 120 mg./5ml.",
+        "drug_type_name": "Antipyretic",
+        "units": "ขวด (60 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1000255,
+        "tpu_code_list": "689255",
+        "drugname": "PROPRANOLOL 10 mg.",
+        "drug_type_name": "CVS",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1000271,
+        "tpu_code_list": "635533",
+        "drugname": "SALBUTAMOL syr. 2 mg/5ml",
+        "drug_type_name": "URI",
+        "units": "ขวด (60 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1000286,
+        "tpu_code_list": "789515",
+        "drugname": "NSS (IRRIGATION) 1,000 ml. (บันทึกวิธีใช้ทุกครั้ง) . .",
+        "drug_type_name": "Irrigation",
+        "units": "ขวด",
+        "is_active": true
+    },
+    {
+        "icode": 1000308,
+        "tpu_code_list": "786371",
+        "drugname": "Triamcinolone Oral Paste 0.1 %",
+        "drug_type_name": "Topical streoid",
+        "units": "ซอง",
+        "is_active": true
+    },
+    {
+        "icode": 1430701,
+        "tpu_code_list": "826686",
+        "drugname": "ORS adult (ผู้ใหญ่) [ใช้ในอายุ >=15 ปี] 5.09 g.",
+        "drug_type_name": "Oral Fluid",
+        "units": "ซอง",
+        "is_active": true
+    },
+    {
+        "icode": 1430802,
+        "tpu_code_list": "343259",
+        "drugname": "5-ISOSORBIDE DINITRATE 5 mg.",
+        "drug_type_name": "CVS",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1450020,
+        "tpu_code_list": "770602",
+        "drugname": "DOMPERIDONE tab. 10 mg.",
+        "drug_type_name": "GI",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1460001,
+        "tpu_code_list": "825656",
+        "drugname": "ISOSORBIDE DINITRATE 10 mg.",
+        "drug_type_name": "CVS",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1460050,
+        "tpu_code_list": "689904",
+        "drugname": "AlUMMILK susp. (Al660+Mg360+Simethicone50 mg./15ml.)",
+        "drug_type_name": "GI",
+        "units": "ขวด (240 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1460128,
+        "tpu_code_list": "783664",
+        "drugname": "CPM inj. 10 mg.",
+        "drug_type_name": "Antihistamine",
+        "units": "Amphule (1 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1460145,
+        "tpu_code_list": "147029",
+        "drugname": "DMPA-MEDROXYPROGESTERONE ACETATE 150 mg.",
+        "drug_type_name": "Hormone",
+        "units": "Vial (3 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1460164,
+        "tpu_code_list": "829928",
+        "drugname": "FluPHENazine decanoate 25 mg./ml.",
+        "drug_type_name": "antipsychotics",
+        "units": "Amp. (1 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1460184,
+        "tpu_code_list": "797836",
+        "drugname": "ChlorHEXIDINE scrub 4 %",
+        "drug_type_name": "antiseptic",
+        "units": "ขวด (60 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1460275,
+        "tpu_code_list": "665306",
+        "drugname": "VITAMIN C [เลี่ยงใช้ใน G6PD, ใช้ได้ไม่เกิน 2 g/วัน] 100 mg.",
+        "drug_type_name": "Vitamins and minerals",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1460541,
+        "tpu_code_list": "616178",
+        "drugname": "GUAIFENESIN sol. 100 mg/5ml",
+        "drug_type_name": "URI",
+        "units": "ขวด (60 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1460544,
+        "tpu_code_list": "497465",
+        "drugname": "CLOTRIMAZOLE cream 1 %",
+        "drug_type_name": "Antifungal",
+        "units": "หลอด (5 g.)",
+        "is_active": true
+    },
+    {
+        "icode": 1460566,
+        "tpu_code_list": "588097",
+        "drugname": "AMOXICILLIN dry syr. 125 mg/5ml",
+        "drug_type_name": "ATB drug",
+        "units": "ขวด (60 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1470801,
+        "tpu_code_list": "273322",
+        "drugname": "DoXAzosin 2 mg.",
+        "drug_type_name": "HT",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1470802,
+        "tpu_code_list": "331918",
+        "drugname": "GRISEOFULVIN 500 mg.",
+        "drug_type_name": "Antifungal",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1481226,
+        "tpu_code_list": "791113",
+        "drugname": "(ยาฉีด) VITAMIN B COMPLEX inj.(B1/B2/B3/B6) 100/0.5/100/1 mg./ml.",
+        "drug_type_name": "Vitamins and minerals",
+        "units": "Amphule (1 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1481230,
+        "tpu_code_list": "738455",
+        "drugname": "SODAMINT (Na+ 3.57 mEq/tab.) 300 mg.",
+        "drug_type_name": "Vitamins and minerals",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1483778,
+        "tpu_code_list": "615149",
+        "drugname": "DomPERIDONE susp. 5 mg/5ml",
+        "drug_type_name": "GI",
+        "units": "ขวด (30 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1483791,
+        "tpu_code_list": "731481",
+        "drugname": "R-DEN (EE/Levonorgestrel) 0.03/0.15 mg.",
+        "drug_type_name": "Hormone",
+        "units": "แผง",
+        "is_active": true
+    },
+    {
+        "icode": 1483793,
+        "tpu_code_list": "788790",
+        "drugname": "POVIDONE IODINE SOL. 10 %",
+        "drug_type_name": "antiseptic",
+        "units": "แกลลอน (450 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1483834,
+        "tpu_code_list": "766121",
+        "drugname": "ALCOHOL 450 ml. 70%",
+        "drug_type_name": "Antiseptic",
+        "units": "ขวด (450 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1483838,
+        "tpu_code_list": "811193",
+        "drugname": "AMMONIA spirit % W/V",
+        "drug_type_name": "Inhalation",
+        "units": "ขวด (450 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1483850,
+        "tpu_code_list": "353856",
+        "drugname": "CLOTRIMAZOLE VT เม็ด 100 mg.",
+        "drug_type_name": "Antifungal",
+        "units": "เม็ด (VG.)",
+        "is_active": true
+    },
+    {
+        "icode": 1483854,
+        "tpu_code_list": "767638",
+        "drugname": "DicloXAcillin 250 mg.",
+        "drug_type_name": "ATB drug",
+        "units": "แค็บซูล",
+        "is_active": true
+    },
+    {
+        "icode": 1483856,
+        "tpu_code_list": "324228",
+        "drugname": "LYNESTRENOL (Exluton) 0.5 mg.",
+        "drug_type_name": "Hormone",
+        "units": "แผง",
+        "is_active": true
+    },
+    {
+        "icode": 1483860,
+        "tpu_code_list": "825417",
+        "drugname": "HYOSCINE syr. 5 mg./5ml.",
+        "drug_type_name": "GI",
+        "units": "ขวด (30 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1483862,
+        "tpu_code_list": "123645",
+        "drugname": "IBUPROFEN (CKD) 400 mg.[เลี่ยงใช้ใน GFR<60/ห้ามใช้ในหญิงตั้งครรภ์]",
+        "drug_type_name": "NSIAD",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1483868,
+        "tpu_code_list": "762008",
+        "drugname": "ORS ,ped (เด็ก) [ใช้ในอายุ<15 ปี] 3.3 g.",
+        "drug_type_name": "Oral Fluid",
+        "units": "ซอง",
+        "is_active": true
+    },
+    {
+        "icode": 1483873,
+        "tpu_code_list": "700307",
+        "drugname": "PolyOph Eye Drop.(Neomycin+Gramicidin+Polymyxin B) .",
+        "drug_type_name": "Ophtalmic Drug",
+        "units": "ขวด (10 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1483878,
+        "tpu_code_list": "322355",
+        "drugname": "ROXIthromycin 150 mg.",
+        "drug_type_name": "ATB drug",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1483883,
+        "tpu_code_list": "697713",
+        "drugname": "TerBUTALINE (CKD) 2.5 mg.",
+        "drug_type_name": "URI",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1483886,
+        "tpu_code_list": "787399",
+        "drugname": "TOLPERISONE 50 mg.",
+        "drug_type_name": "Muscle relaxant",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1483888,
+        "tpu_code_list": "852818",
+        "drugname": "TRIAMCINOLONE cream 0.1 %",
+        "drug_type_name": "Topical streoid",
+        "units": "หลอด (5 g.)",
+        "is_active": true
+    },
+    {
+        "icode": 1490001,
+        "tpu_code_list": "226262",
+        "drugname": "AMLODIPINE 5 mg.",
+        "drug_type_name": "HT",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1490501,
+        "tpu_code_list": "417203",
+        "drugname": "ATENOLOL (CKD) 50 mg.",
+        "drug_type_name": "HT",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1490802,
+        "tpu_code_list": "767209",
+        "drugname": "DimenhyDRINATE 50 mg.",
+        "drug_type_name": "CVS",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1490804,
+        "tpu_code_list": "560813",
+        "drugname": "DIMENHYDRINATE  inj. 50 mg./ml.",
+        "drug_type_name": "CVS",
+        "units": "Amphule (1 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1490808,
+        "tpu_code_list": "737856",
+        "drugname": "FERROUS FUMARATE (Fe element 65 mg/tab.) 200 mg.",
+        "drug_type_name": "Vitamins and minerals",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1500205,
+        "tpu_code_list": "557469",
+        "drugname": "GLUCOSE inj. 50 %",
+        "drug_type_name": "Vitamins and minerals",
+        "units": "VIAL.  (50 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1500211,
+        "tpu_code_list": "666691",
+        "drugname": "ALBENDAZOLE 200 mg.",
+        "drug_type_name": "Anthelmintics",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1510011,
+        "tpu_code_list": "888396",
+        "drugname": "BENZYL BENZOATE emulsion 25 %",
+        "drug_type_name": "ยารักษาหิดเหา",
+        "units": "ขวด (60 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1520008,
+        "tpu_code_list": "825969",
+        "drugname": "TRIAMCINOLONE cream 0.02 %",
+        "drug_type_name": "Topical streoid",
+        "units": "หลอด (5 g.)",
+        "is_active": true
+    },
+    {
+        "icode": 1520021,
+        "tpu_code_list": "890664",
+        "drugname": "LIDOCAINE viscous 2% ml.",
+        "drug_type_name": "Anesthetic",
+        "units": "ขวด (30 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1530001,
+        "tpu_code_list": "251421",
+        "drugname": "ASPIRIN 81 mg.",
+        "drug_type_name": "CVS",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1530003,
+        "tpu_code_list": "611231",
+        "drugname": "DICLOXACILLIN dry. syr. 62.5 mg/5ml",
+        "drug_type_name": "ATB drug",
+        "units": "ขวด (60 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1530005,
+        "tpu_code_list": "529813",
+        "drugname": "(คิดเป็น 1 cc) BERODUAL sol. NB (Ipratropium/Fenoterol) 250/500 mcg./ml",
+        "drug_type_name": "URI",
+        "units": "ซีซี",
+        "is_active": true
+    },
+    {
+        "icode": 1530012,
+        "tpu_code_list": "737414",
+        "drugname": "TriFERDINE (Fe 60.81/Folic 0.4/I 0.15 mg.) .",
+        "drug_type_name": "Vitamins and minerals",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1540003,
+        "tpu_code_list": "9033069",
+        "drugname": "ชาชงรางจืด 2 g.",
+        "drug_type_name": "Herb",
+        "units": "ซองเล็ก",
+        "is_active": true
+    },
+    {
+        "icode": 1540007,
+        "tpu_code_list": "104721",
+        "drugname": "OMEPRAZOLE 20 mg.",
+        "drug_type_name": "GI",
+        "units": "แค็บซูล",
+        "is_active": true
+    },
+    {
+        "icode": 1540018,
+        "tpu_code_list": "115816",
+        "drugname": "GemFIbrozil (CKD) 600 mg.",
+        "drug_type_name": "Lipid regulating drugs",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1540024,
+        "tpu_code_list": "112032",
+        "drugname": "20-ENALAPRIL (CKD) 20 mg",
+        "drug_type_name": "HT",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1540028,
+        "tpu_code_list": "314635",
+        "drugname": "GlipiZIDE 5 mg.",
+        "drug_type_name": "DM",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1550009,
+        "tpu_code_list": "737134",
+        "drugname": "HCTZ (CKD) 25 mg.",
+        "drug_type_name": "HT",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1550018,
+        "tpu_code_list": "9092592",
+        "drugname": "ขมิ้นชัน [ห้ามใช้ในหญิงตั้งครรภ์และโรคนิ่วในถุงน้ำดี] 500 mg.",
+        "drug_type_name": "Herb",
+        "units": "แค็บซูล",
+        "is_active": true
+    },
+    {
+        "icode": 1550026,
+        "tpu_code_list": "9423131",
+        "drugname": "ชาชงหญ้าดอกขาว 2 g.",
+        "drug_type_name": "Herb",
+        "units": "ซองเล็ก",
+        "is_active": true
+    },
+    {
+        "icode": 1580002,
+        "tpu_code_list": "312636",
+        "drugname": "DICYCLOMINE 10 mg.",
+        "drug_type_name": "GI",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1600030,
+        "tpu_code_list": "9388722",
+        "drugname": "ยาเหลืองปิดสมุทร [เลี่ยงใช้ในเด็ก < 6 ปี] 500 mg.",
+        "drug_type_name": "Herb",
+        "units": "แค็บซูล",
+        "is_active": true
+    },
+    {
+        "icode": 1600070,
+        "tpu_code_list": "114112",
+        "drugname": "(ยาควบคุม) LOSARTAN 50 mg.",
+        "drug_type_name": "HT",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1610010,
+        "tpu_code_list": "1022514",
+        "drugname": "(ยาควบคุม) HYDRALAZINE 25 mg.",
+        "drug_type_name": "HT",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1610012,
+        "tpu_code_list": "737759",
+        "drugname": "CALCIUM CARBONATE 1250 mg.",
+        "drug_type_name": "Vitamins and minerals",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1610014,
+        "tpu_code_list": "335018",
+        "drugname": "PIOGLITAZONE 30 mg.",
+        "drug_type_name": "DM",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1620006,
+        "tpu_code_list": "117618",
+        "drugname": "SIMVASTATIN 20 mg.",
+        "drug_type_name": "Lipid regulating drugs",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1630014,
+        "tpu_code_list": "376624",
+        "drugname": "MetroNIDAZOLE tab. 400 mg.",
+        "drug_type_name": "ATB drug",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1640016,
+        "tpu_code_list": "763349",
+        "drugname": "Simethicone Drop. 40 mg/0.6ml",
+        "drug_type_name": "GI",
+        "units": "ขวด (15 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1650050,
+        "tpu_code_list": "9374064",
+        "drugname": "ยาอมประสะมะแว้ง(รสบ๊วย) [เลี่ยงใช้ในหญิงตั้งครรภ์และเด็ก < 6 ปี] 200 mg",
+        "drug_type_name": "Herb",
+        "units": "ซอง (20 เม็ด)",
+        "is_active": true
+    },
+    {
+        "icode": 1660031,
+        "tpu_code_list": "530759",
+        "drugname": "Allergis Eye drop. 0.05 %",
+        "drug_type_name": "Ophtalmic Drug",
+        "units": "ขวด (10 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1670064,
+        "tpu_code_list": "9378813",
+        "drugname": "ยาน้ำแก้ไอมะขามป้อม(น้ำสีดำ) [ห้ามใช้ในหญิงตั้งครรภ์และเด็ก < 2 ปี] 120",
+        "drug_type_name": "Herb",
+        "units": "ขวด (120 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1670066,
+        "tpu_code_list": "762031",
+        "drugname": "SILVER SULFADIAZINE หลอด (25 g.) 1 % [ห้ามใช้ใน G6PD]",
+        "drug_type_name": "Topical antibacterial",
+        "units": "หลอด (25 g.)",
+        "is_active": true
+    },
+    {
+        "icode": 1670082,
+        "tpu_code_list": "9414200",
+        "drugname": "ลูกประคบสมุนไพร [ใช้หลังบาดเจ็บ > 48 ชม./warfarin INR สูงห้ามประคบ] 200 g.",
+        "drug_type_name": "Herb",
+        "units": "ถุง",
+        "is_active": true
+    },
+    {
+        "icode": 1670085,
+        "tpu_code_list": "9412885",
+        "drugname": "ครีมไพล 14 %",
+        "drug_type_name": "Herb",
+        "units": "หลอด (30 g.)",
+        "is_active": true
+    },
+    {
+        "icode": 1670087,
+        "tpu_code_list": "797196",
+        "drugname": "Eurofer-iron (Fe element 50 mg./5 ml.) .",
+        "drug_type_name": "Vitamins and minerals",
+        "units": "ขวด (60 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1670096,
+        "tpu_code_list": "9425558",
+        "drugname": "ยาหม่องพญายอ 15 %",
+        "drug_type_name": "Herb",
+        "units": "(10 g.)",
+        "is_active": true
+    },
+    {
+        "icode": 1680021,
+        "tpu_code_list": "9098461",
+        "drugname": "มะระขี้นก [ห้ามใช้ในหญิงตั้งครรภ์-ให้นมบุตร/เด็ก<18ปี/ผู้ที่ใช้ยาเบาหวาน] 500 mg.",
+        "drug_type_name": "Herb",
+        "units": "แค็บซูล",
+        "is_active": true
+    },
+    {
+        "icode": 1680023,
+        "tpu_code_list": "9093738",
+        "drugname": "ยาขิง [เลี่ยงใช้ในเด็ก < 6 ปี] 500 mg.",
+        "drug_type_name": "Herb",
+        "units": "แค็บซูล",
+        "is_active": true
+    },
+    {
+        "icode": 1680025,
+        "tpu_code_list": "9373829",
+        "drugname": "ยาหอมเทพจิตร 200 mg.",
+        "drug_type_name": "Herb",
+        "units": "ซอง (20 เม็ด)",
+        "is_active": true
+    },
+    {
+        "icode": 1680027,
+        "tpu_code_list": "9092603",
+        "drugname": "มะขามแขก (sennoside B 2.5%) 450 mg.",
+        "drug_type_name": "Herb",
+        "units": "แค็บซูล",
+        "is_active": true
+    },
+    {
+        "icode": 1680035,
+        "tpu_code_list": "9435045",
+        "drugname": "ยาธาตุอบเชย (CKD) [ห้ามใช้ในหญิงตั้งครรภ์-ให้นมบุตร/เด็ก<15ปี/ตับ-ไตบกพร่องรุนแรง] -",
+        "drug_type_name": "Herb",
+        "units": "ขวด (120 ml.)",
+        "is_active": true
+    },
+    {
+        "icode": 1680039,
+        "tpu_code_list": "9392294",
+        "drugname": "ยาสหัสธารา (CKD) [ห้ามใช้ในหญิงตั้งครรภ์-ให้นมบุตร/เด็ก<15ปี/ตับ-ไตบกพร่องรุนแรง] 500 mg.",
+        "drug_type_name": "Herb",
+        "units": "แค็บซูล",
+        "is_active": true
+    },
+    {
+        "icode": 1680048,
+        "tpu_code_list": "9093772",
+        "drugname": "ฟ้าทะลายโจร [andrographolide 5 mg/cap.,ห้ามใช้ในหญิงตั้งครรภ์-ให้นมบุตร/เด็ก<18ปี] 500 mg.",
+        "drug_type_name": "Herb",
+        "units": "แค็บซูล",
+        "is_active": true
+    },
+    {
+        "icode": 1680050,
+        "tpu_code_list": "716474",
+        "drugname": "VITAMIN B COMPLEX เม็ด. (B1 1.5/B2 1.7/B3 20/B5 6/B6 2/B12 0.02/Folic0.3/Biotin0.15) -",
+        "drug_type_name": "Vitamins and minerals",
+        "units": "เม็ด",
+        "is_active": true
+    },
+    {
+        "icode": 1680055,
+        "tpu_code_list": "9385210",
+        "drugname": "เพชรสังฆาต (CKD) [เลี่ยงใช้ในหญิงตั้งครรภ์-ให้นมบุตร/เด็ก<15ปี/ไตบกพร่อง] 500 mg.",
+        "drug_type_name": "Herb",
+        "units": "แค็บซูล",
+        "is_active": true
+    },
+    {
+        "icode": 1680064,
+        "tpu_code_list": "582424",
+        "drugname": "Albendazole Suspension 400 mg/20 ml",
+        "drug_type_name": "Anthelmintics",
+        "units": "ขวด(20ml)",
+        "is_active": true
+    },
+    {
+        "icode": 1680066,
+        "tpu_code_list": "872775",
+        "drugname": "ALCOHOL 450 ml. 95%",
+        "drug_type_name": "Antiseptic",
+        "units": "ขวด  450 ml",
+        "is_active": true
+    }
+]

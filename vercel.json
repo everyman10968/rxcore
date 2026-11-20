@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "functions": {
+    "index.php": { "runtime": "vercel-php@0.7.3" },
+    "pages/*.php": { "runtime": "vercel-php@0.7.3" },
+    "api/*.php": { "runtime": "vercel-php@0.7.3" }
+  },
+  "routes": [
+    { "src": "^/assets/(.*)$", "dest": "/assets/$1" },
+    { "src": "^/$", "dest": "/index.php" },
+    { "src": "^/(pages|api)/([^/]+\\.php)$", "dest": "/$1/$2" }
+  ],
+  "crons": [
+    {
+      "path": "/api/cron_daily_summary.php",
+      "schedule": "30 10 * * *"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+===============================================================
+ MOPH NOTIFY API SPECIFICATION & PROMPT GUIDE
+===============================================================
+
+---------------------------------------------------------------
+1. API SPECIFICATION (MOPH NOTIFY / หมอพร้อม)
+---------------------------------------------------------------
+Endpoint URL : https://morpromt2f.moph.go.th/api/notify/send
+HTTP Method  : POST
+
+Headers:
+  Content-Type: application/json
+  client-key: <CLIENT_KEY>
+  secret-key: <SECRET_KEY>
+
+Request Body (JSON format):
+{
+  "messages": [
+    {
+      "type": "text",
+      "text": "ข้อความที่ต้องการแจ้งเตือน เช่น แจ้งเตือนจากระบบ..."
+    }
+  ]
+}
+
+HTTP Response:
+  - 200 หรือ 201 : ส่งข้อความสำเร็จ
+  - อื่นๆ (400, 401, 500) : ไม่สำเร็จ เช่น Key ไม่ถูกต้อง หรือรูปแบบ JSON ผิด
+
+---------------------------------------------------------------
+2. PROMPT สำหรับส่งให้ AI หรือ Developers
+---------------------------------------------------------------
+คัดลอกข้อความด้านล่างนี้ไปใช้งานได้ทันที:
+
+"""
+ช่วยเขียนฟังก์ชันส่งข้อความแจ้งเตือนผ่าน API ของ "MOPH Notify (หมอพร้อม)" ด้วยภาษา [ระบุภาษา เช่น PHP / Python / Node.js / C# .NET] ให้หน่อยครับ
+
+รายละเอียดการเชื่อมต่อ API มีดังนี้:
+1. Method: POST
+2. URL: https://morpromt2f.moph.go.th/api/notify/send
+3. Headers:
+   - Content-Type: application/json
+   - client-key: [ระบุ Client Key]
+   - secret-key: [ระบุ Secret Key]
+4. Request Body โครงสร้างเป็น JSON ดังนี้:
+   {
+     "messages": [
+       {
+         "type": "text",
+         "text": "[ข้อความที่ต้องการส่ง]"
+       }
+     ]
+   }
+
+สิ่งที่ต้องการในโค้ด:
+- มีฟังก์ชันรับพารามิเตอร์ (message, client_key, secret_key)
+- จัดการ Error Handling และตรวจสอบ HTTP Status Code (200 หรือ 201 ถือว่าส่งสำเร็จ)
+- รองรับภาษาไทย (UTF-8) ได้อย่างถูกต้อง
+- เขียนตัวอย่างการเรียกใช้งานฟังก์ชันให้ดูด้วย
+"""
+
+---------------------------------------------------------------
+3. ตัวอย่างโค้ด (CODE EXAMPLES)
+---------------------------------------------------------------
+
+[PHP cURL]
+---------------------------------------------------------------
+function sendMophNotify($message, $clientKey, $secretKey) {
+    $url = "https://morpromt2f.moph.go.th/api/notify/send";
+    $payload = json_encode([
+        "messages" => [
+            ["type" => "text", "text" => $message]
+        ]
+    ], JSON_UNESCAPED_UNICODE);
+
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        "Content-Type: application/json",
+        "client-key: " . $clientKey,
+        "secret-key: " . $secretKey
+    ]);
+
+    $response = curl_exec($ch);
+    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    $error    = curl_error($ch);
+    curl_close($ch);
+
+    if ($error) {
+        return ['status' => false, 'error' => $error];
+    }
+    return ['status' => in_array($httpCode, [200, 201]), 'code' => $httpCode, 'response' => $response];
+}
+
+// ตัวอย่างเรียกใช้:
+// sendMophNotify("ทดสอบแจ้งเตือน", "YOUR_CLIENT_KEY", "YOUR_SECRET_KEY");
+
+
+[Python]
+---------------------------------------------------------------
+import requests
+
+def send_moph_notify(message, client_key, secret_key):
+    url = "https://morpromt2f.moph.go.th/api/notify/send"
+    headers = {
+        "Content-Type": "application/json",
+        "client-key": client_key,
+        "secret-key": secret_key
+    }
+    data = {
+        "messages": [
+            {"type": "text", "text": message}
+        ]
+    }
+    res = requests.post(url, json=data, headers=headers, verify=False)
+    return res.status_code in [200, 201], res.text
+
+# ตัวอย่างเรียกใช้:
+# send_moph_notify("ทดสอบแจ้งเตือน", "YOUR_CLIENT_KEY", "YOUR_SECRET_KEY")
+
+
+[Node.js / JavaScript]
+---------------------------------------------------------------
+async function sendMophNotify(message, clientKey, secretKey) {
+  const url = "https://morpromt2f.moph.go.th/api/notify/send";
+  const res = await fetch(url, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "client-key": clientKey,
+      "secret-key": secretKey
+    },
+    body: JSON.stringify({
+      messages: [{ type: "text", text: message }]
+    })
+  });
+  return res.ok;
+}
+
+// ตัวอย่างเรียกใช้:
+// sendMophNotify("ทดสอบแจ้งเตือน", "YOUR_CLIENT_KEY", "YOUR_SECRET_KEY");

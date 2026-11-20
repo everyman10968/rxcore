@@ -1,0 +1,24 @@
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# Runtime Config & Sensitive Keys
+config/moph_notify.json
+config/fiscal_years.json
+sync-agent/config/
+**/*.enc.json
+
+# Logs & Temp
+logs/
+sync-agent/logs/
+*.log
+
+# Distributable Build (contains Portable PHP binaries; rebuild via build_package.php)
+dist/
+
+# Server & IDE
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
